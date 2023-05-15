@@ -5,9 +5,17 @@
     width: 100vw;
     display: flex;
     align-items: center;
-    transition: background-image 0.5s ease-in-out;
+    // animation: appear 0.5s ease-out forwards;
+    transition:   background-image 0.5s ease-out;
 }
-
+// @keyframes appear {
+//     0% {
+//       transform: translateY(-50%) scaleY(0);
+//     }
+//     100% {
+//       transform: translateY(0%) scaleY(1);
+//     }
+//   }
 .top-nav {
     display: flex;
     justify-content: center;

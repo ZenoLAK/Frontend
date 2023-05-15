@@ -8,6 +8,7 @@
   margin: 20px 0;
   background-color: #fff;
   padding: 2rem;
+  z-index: 1;
   &__mobile {
     display: none;
   }
@@ -74,6 +75,7 @@
 
     &__mobile {
       position: relative;
+      display: block;
 
       & .navbar__hamburger{
         padding: 0.5rem;
