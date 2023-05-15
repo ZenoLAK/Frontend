@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "worksans";
+    src: url("./font/WorkSans-VariableFont_wght.ttf") format("truetype");
+  }
+  
+  body {
+    font-family: "worksans", sans-serif;
+  }
+  
